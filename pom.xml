@@ -21,5 +21,16 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+
   </dependencies>
+
+  <!-- dependencyManagement 约定当前项目下所有的子模块可以采用的jar包
+          如果你在子模块确定要用到这里定义的jar包，就不需要版本，直接引用即可
+          如果你在子模块中要使用别的版本的jar包，就需要版本号
+    -->
+  <dependencyManagement>
+
+  </dependencyManagement>
+
 </project>
