@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--spring自动调用Address的无参构造方法创建对象，再将这个对象以Map形式存好
+        Map<String,Object>
+            "address",  address对象-->
+    <bean id="addr" class="com.yc.bean1.Address">
+        <!-- DI 依赖注入 String,int基本型的值用value注入-->
+        <property name="city" value="北京"/>
+        <property name="district" value="朝阳区"/>
+        <property name="province" value="北京"/>
+    </bean>
+
+    <bean id="student" class="com.yc.bean1.Student">
+        <!-- DI 依赖注入 String,int基本型的值用value注入-->
+        <property name="id" value="1"/>
+        <property name="name" value="张三"/>
+        <!--注意:这里的address的属性值用ref-->
+        <property name="address" ref="addr"/>
+    </bean>
+</beans>

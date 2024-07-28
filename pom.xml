@@ -19,11 +19,7 @@
 
     <!-- 在父项目的dependencies中定义的jar包，子项目可以直接引用，不用在子项目中定义 -->
     <dependencies>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>5.2.10.RELEASE</version>
-        </dependency>
+
     </dependencies>
 
     <!-- dependencyManagement 约定当前项目下所有的子模块可以采用的jar包
@@ -32,6 +28,17 @@
       -->
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>5.3.24</version>
+            </dependency>
+<!--            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-core</artifactId>
+                <version>5.3.24</version>
+            </dependency>-->
+
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>

@@ -5,15 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/baseSpring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/App1_old.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/App2_new.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/App3_annotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/App4_annotation_threadpool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/AppConfig2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/App1_ComponentScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/son/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/son/OrderBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/son/Pear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/son/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean3/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/App_FactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/FruitFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/other/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/other/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/other/Grape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/resources/pool.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yc/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/test/java/com/yc/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +41,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="E:\git\Git\bin\git.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean3/AppConfig.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -53,13 +75,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/java/java/ssm/code/spring",
+    "last_opened_file_path": "F:/java/java/api/java-mail",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -70,26 +96,79 @@
       <recent name="F:\java\java\。，。\三期\test141spring\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="AppTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.App_FactoryBean">
+    <configuration name="App1_ComponentScan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.bean2.App1_ComponentScan" />
       <module name="baseSpring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yc.*" />
+          <option name="PATTERN" value="com.yc.bean2.son.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yc" />
-      <option name="MAIN_CLASS_NAME" value="com.yc.AppTest" />
-      <option name="METHOD_NAME" value="testApp" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App3_annotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.bean1.App3_annotation" />
+      <module name="baseSpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.bean1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App4_annotation_threadpool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.bean1.App4_annotation_threadpool" />
+      <module name="baseSpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.bean1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App_FactoryBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.bean4_ioc_factorybean.App_FactoryBean" />
+      <module name="baseSpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.bean4_ioc_factorybean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.bean1.Test4" />
+      <module name="baseSpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.bean1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.testApp" />
+        <item itemvalue="Application.App_FactoryBean" />
+        <item itemvalue="Application.App1_ComponentScan" />
+        <item itemvalue="Application.App3_annotation" />
+        <item itemvalue="Application.App4_annotation_threadpool" />
+        <item itemvalue="Application.Test4" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +182,12 @@
       <updated>1713616626231</updated>
       <workItem from="1722048579822" duration="261000" />
       <workItem from="1722048861522" duration="444000" />
-      <workItem from="1722049322126" duration="1438000" />
+      <workItem from="1722049322126" duration="1872000" />
+      <workItem from="1722051203708" duration="23000" />
+      <workItem from="1722051234877" duration="1501000" />
+      <workItem from="1722064238412" duration="25000" />
+      <workItem from="1722146137305" duration="11733000" />
+      <workItem from="1722158253879" duration="674000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -121,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722049067524</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <option name="closed" value="true" />
+      <created>1722050924248</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722050924248</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
