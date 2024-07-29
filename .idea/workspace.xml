@@ -5,31 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/App1_old.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/App2_new.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/App3_annotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/App4_annotation_threadpool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/AppConfig2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/App1_ComponentScan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/son/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/son/OrderBiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/son/Pear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/son/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean3/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/App_FactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/FruitFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/other/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/other/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/other/Grape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/resources/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/resources/pool.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/di/bean1/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/di/bean1/App1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/di/bean1/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/di/bean2_autowired/App2_autowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/di/bean2_autowired/OrderBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/di/bean2_autowired/OrderBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/di/bean2_autowired/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/di/bean2_autowired/OrderMysqlDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/di/bean2_autowired/OrderOceanDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean5_ioc_import/App1_import.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean5_ioc_import/App2_importSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean5_ioc_import/App3_importBeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean5_ioc_import/AppConfig_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean5_ioc_import/AppConfig_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean5_ioc_import/AppConfig_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean5_ioc_import/FruitImportSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean5_ioc_import/FruitNameImportBeanDefinitionRegistrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean5_ioc_import/other/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean5_ioc_import/other/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean5_ioc_import/other/Grape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean5_ioc_import/other/WaterMelon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean6_conditional/App6_conditional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean6_conditional/SystemConditional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean6_conditional/WindowsPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean7_beanDefinition/App1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean7_beanDefinition/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/resources/product.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baseSpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean1/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/App1_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean1/App1_old.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/App2_new.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean1/App2_new.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/App3_annotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean1/App3_annotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/App4_annotation_threadpool.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean1/App4_annotation_threadpool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean1/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/AppConfig2.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean1/AppConfig2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/App1_ComponentScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean2/App1_ComponentScan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/son/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean2/son/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/son/OrderBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean2/son/OrderBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/son/Pear.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean2/son/Pear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean2/son/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean2/son/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean3/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean3/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/App_FactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean4_ioc_factorybean/App_FactoryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/FruitFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean4_ioc_factorybean/FruitFactoryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/other/Banana.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean4_ioc_factorybean/other/Banana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/other/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean4_ioc_factorybean/other/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean4_ioc_factorybean/other/Grape.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean4_ioc_factorybean/other/Grape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/resources/beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,38 +96,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/java/java/api/java-mail",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/java/java/。，。/三期/test141spring&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\java\java\。，。\三期\test141spring\baseSpring\src\main\resources" />
       <recent name="F:\java\java\。，。\三期\test141spring\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App_FactoryBean">
-    <configuration name="App1_ComponentScan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.bean2.App1_ComponentScan" />
+  <component name="RunManager" selected="Application.com.yc.di.bean1.App1">
+    <configuration name="App1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.bean7_beanDefinition.App1" />
       <module name="baseSpring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yc.bean2.son.*" />
+          <option name="PATTERN" value="com.yc.bean7_beanDefinition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App3_annotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.bean1.App3_annotation" />
+    <configuration name="App2_autowired" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.di.bean2_autowired.App2_autowired" />
       <module name="baseSpring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yc.bean1.*" />
+          <option name="PATTERN" value="com.yc.di.bean2_autowired.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App4_annotation_threadpool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.bean1.App4_annotation_threadpool" />
+    <configuration name="App3_importBeanDefinition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.bean5_ioc_import.App3_importBeanDefinition" />
       <module name="baseSpring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yc.bean1.*" />
+          <option name="PATTERN" value="com.yc.bean5_ioc_import.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App_FactoryBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.bean4_ioc_factorybean.App_FactoryBean" />
+    <configuration name="App6_conditional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.bean6_conditional.App6_conditional" />
       <module name="baseSpring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yc.bean4_ioc_factorybean.*" />
+          <option name="PATTERN" value="com.yc.bean6_conditional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.bean1.Test4" />
+    <configuration name="com.yc.di.bean1.App1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.di.bean1.App1" />
       <module name="baseSpring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yc.bean1.*" />
+          <option name="PATTERN" value="com.yc.di.bean1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App_FactoryBean" />
-        <item itemvalue="Application.App1_ComponentScan" />
-        <item itemvalue="Application.App3_annotation" />
-        <item itemvalue="Application.App4_annotation_threadpool" />
-        <item itemvalue="Application.Test4" />
+        <item itemvalue="Application.com.yc.di.bean1.App1" />
+        <item itemvalue="Application.App2_autowired" />
+        <item itemvalue="Application.App1" />
+        <item itemvalue="Application.App6_conditional" />
+        <item itemvalue="Application.App3_importBeanDefinition" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +213,14 @@
       <workItem from="1722064238412" duration="25000" />
       <workItem from="1722146137305" duration="11733000" />
       <workItem from="1722158253879" duration="674000" />
+      <workItem from="1722163188786" duration="58000" />
+      <workItem from="1722164202791" duration="1455000" />
+      <workItem from="1722168793029" duration="385000" />
+      <workItem from="1722172281857" duration="96000" />
+      <workItem from="1722213100892" duration="929000" />
+      <workItem from="1722214090483" duration="1232000" />
+      <workItem from="1722216398742" duration="9045000" />
+      <workItem from="1722234238302" duration="900000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
