@@ -9,6 +9,7 @@ public class App4_annotation_threadpool {
     public static void main(String[] args) {
         ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig2.class);
         ThreadPoolExecutor tpe = (ThreadPoolExecutor) ac.getBean("tpe");
+        System.out.println(tpe);
         tpe.execute( () -> {
             System.out.println("线程池执行任务");
         });

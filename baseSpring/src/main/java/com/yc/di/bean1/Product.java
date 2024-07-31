@@ -11,9 +11,10 @@ import org.springframework.stereotype.Component;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Component
 @PropertySource("classpath:product.properties")
 public class Product {
-    @Value("${id}")
+    @Value("${pid}")
     private int id;
     @Value("${pname}")
     private String pname;
