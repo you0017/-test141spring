@@ -11,7 +11,7 @@ public class App1_import {
         for (String name : names) {
             System.out.println(name);
         }
-        Object bean = ac.getBean("com.yc.bean5_ioc_import.other.Apple");
+        Object bean = ac.getBean("com.yc.ioc.bean5_ioc_import.other.Apple");
         System.out.println(bean);
     }
 }
