@@ -164,8 +164,8 @@ public class YcAnnotationConfigApplicationContext implements YcApplicationContex
      * @param packageName com.yc:
      */
     private void findPackageClasses(String packagePath, String packageName) throws UnsupportedEncodingException {
-        if (packageName.startsWith("/")) {
-            packageName = packageName.substring(1);
+        if (packagePath.startsWith("/")) {
+            packagePath = packagePath.substring(1);
         }
         packagePath = URLDecoder.decode(packagePath, "utf-8"); // 防止路径中文，统一转utf-8
         //取这个packagePath路径下的所有文件(包括子包
@@ -210,7 +210,7 @@ public class YcAnnotationConfigApplicationContext implements YcApplicationContex
                             //获取beanId
                             String beanId = getBeanId(cls);
                             beanDefinitionMap.put(beanId, bd);
-                            beanMap.put(beanId, cls.newInstance());
+                            //beanMap.put(beanId, cls.newInstance());
                             System.out.println("beanId:" + beanId);
                         }
                     }catch (Exception e){

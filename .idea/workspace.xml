@@ -4,34 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="ioc和di">
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/di/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/di/bean3_value_spEL/App1_main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/di/bean3_value_spEL/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/SnakeApple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/annotation/YcAutowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/annotation/YcBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/annotation/YcComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/annotation/YcComponentScan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/annotation/YcConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/annotation/YcController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/annotation/YcLazy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/annotation/YcQualifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/annotation/YcRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/annotation/YcResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/annotation/YcScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/annotation/YcService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/context/YcAnnotationConfigApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/context/YcApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/context/YcBeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/yc/UserBiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/yc/UserDao.java" afterDir="false" />
+    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="自定义简单的基于注解的spring">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/ee.oAwAAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseSpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean5_ioc_import/App1_import.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/ioc/bean5_ioc_import/App1_import.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/context/YcAnnotationConfigApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/context/YcAnnotationConfigApplicationContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +198,8 @@
       <workItem from="1722483994612" duration="154000" />
       <workItem from="1722497199532" duration="370000" />
       <workItem from="1722507804916" duration="11293000" />
-      <workItem from="1722564412806" duration="551000" />
+      <workItem from="1722564412806" duration="652000" />
+      <workItem from="1722565076094" duration="1242000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -274,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722509664350</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="自定义简单的基于注解的spring">
+      <option name="closed" value="true" />
+      <created>1722565048193</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722565048193</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,23 +285,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="ioc和di" />
-    <option name="LAST_COMMIT_MESSAGE" value="ioc和di" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/context/YcAnnotationConfigApplicationContext.java</url>
-          <line>97</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/context/YcAnnotationConfigApplicationContext.java</url>
-          <line>116</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="自定义简单的基于注解的spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义简单的基于注解的spring" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
