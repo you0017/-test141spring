@@ -21,7 +21,7 @@ public class YcAnnotationConfigApplicationContext implements YcApplicationContex
     private Map<String, Object> beanMap = new HashMap<String, Object>(); //beanId和具体的实例
     private Map<String, YcBeanDefinition> beanDefinitionMap = new ConcurrentHashMap<>();//beanId和类信息
 
-    public YcAnnotationConfigApplicationContext(Class<?>... configClass) throws Exception, IOException {
+    public YcAnnotationConfigApplicationContext(Class<?>... configClass) throws Exception {
         //解析配置类
         for (Class<?> aClass : configClass) {
             //解析配置类中的@Bean注解
@@ -163,11 +163,15 @@ public class YcAnnotationConfigApplicationContext implements YcApplicationContex
      * @param packagePath 待扫描的包的绝对路径 : /c:/xxx/xxx
      * @param packageName com.yc:
      */
-    private void findPackageClasses(String packagePath, String packageName) throws UnsupportedEncodingException {
+    private void findPackageClasses(String packagePath, String packageName) {
         if (packagePath.startsWith("/")) {
             packagePath = packagePath.substring(1);
         }
-        packagePath = URLDecoder.decode(packagePath, "utf-8"); // 防止路径中文，统一转utf-8
+        try {
+            packagePath = URLDecoder.decode(packagePath, "utf-8"); // 防止路径中文，统一转utf-8
+        } catch (UnsupportedEncodingException e) {
+            throw new RuntimeException(e);
+        }
         //取这个packagePath路径下的所有文件(包括子包
         File file = new File(packagePath);
         //取所有的.class文件

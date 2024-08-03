@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="自定义简单的基于注解的spring">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/ee.oAwAAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/context/YcAnnotationConfigApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/context/YcAnnotationConfigApplicationContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +81,7 @@
       <recent name="com.yc.project2.org.springframework.annotation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppConfig">
+  <component name="RunManager" selected="Application.AppConfig (1)">
     <configuration name="App1_import" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yc.ioc.bean5_ioc_import.App1_import" />
       <module name="baseSpring" />
@@ -108,6 +101,18 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yc.di.bean2_autowired.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppConfig (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.project2.AppConfig" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.project2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,26 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.yc.di.bean1.App1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.di.bean1.App1" />
-      <module name="baseSpring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yc.di.bean1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppConfig (1)" />
         <item itemvalue="Application.AppConfig" />
         <item itemvalue="Application.App_main" />
         <item itemvalue="Application.App1_import" />
         <item itemvalue="Application.App2_autowired" />
-        <item itemvalue="Application.com.yc.di.bean1.App1" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +192,30 @@
       <workItem from="1722507804916" duration="11293000" />
       <workItem from="1722564412806" duration="652000" />
       <workItem from="1722565076094" duration="1242000" />
+      <workItem from="1722567477051" duration="34000" />
+      <workItem from="1722568375407" duration="7000" />
+      <workItem from="1722578542606" duration="118000" />
+      <workItem from="1722578683071" duration="14000" />
+      <workItem from="1722578732819" duration="11000" />
+      <workItem from="1722578866344" duration="104000" />
+      <workItem from="1722578977568" duration="48000" />
+      <workItem from="1722579032638" duration="252000" />
+      <workItem from="1722579291362" duration="25000" />
+      <workItem from="1722579336204" duration="26000" />
+      <workItem from="1722579370482" duration="12000" />
+      <workItem from="1722579400012" duration="139000" />
+      <workItem from="1722579549203" duration="767000" />
+      <workItem from="1722580325199" duration="347000" />
+      <workItem from="1722582221212" duration="83000" />
+      <workItem from="1722582525394" duration="69000" />
+      <workItem from="1722582617345" duration="29000" />
+      <workItem from="1722582664738" duration="24000" />
+      <workItem from="1722582698105" duration="12000" />
+      <workItem from="1722582723866" duration="39000" />
+      <workItem from="1722582778507" duration="13000" />
+      <workItem from="1722582955333" duration="223000" />
+      <workItem from="1722583580515" duration="52000" />
+      <workItem from="1722584571320" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -265,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722565048193</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="自定义简单的基于注解的spring">
+      <option name="closed" value="true" />
+      <created>1722567497510</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722567497510</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +311,17 @@
     <MESSAGE value="ioc和di" />
     <MESSAGE value="自定义简单的基于注解的spring" />
     <option name="LAST_COMMIT_MESSAGE" value="自定义简单的基于注解的spring" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/context/YcAnnotationConfigApplicationContext.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
