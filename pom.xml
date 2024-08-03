@@ -11,6 +11,8 @@
     <url>http://maven.apache.org</url>
     <modules>
         <module>baseSpring</module>
+        <module>baseAop</module>
+        <module>baseAop2_configuration</module>
     </modules>
 
     <properties>

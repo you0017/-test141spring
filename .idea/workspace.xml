@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="自定义简单的基于注解的spring">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop/src/main/java/com/yc/cglib/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop/src/main/java/com/yc/cglib/OrderBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop/src/main/java/com/yc/cglib/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop/src/main/java/com/yc/jdkproxy/CheckRightsInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop/src/main/java/com/yc/jdkproxy/OrderBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop/src/main/java/com/yc/jdkproxy/OrderBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop/src/main/java/com/yc/jdkproxy/OrderBizImplOOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop/src/main/java/com/yc/jdkproxy/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop/src/main/java/com/yc/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop/src/test/java/com/yc/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,32 +62,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/java/java/。，。/三期/test141spring&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "F:/java/java/yc/Three_installments/test141spring/baseAop/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop\src\main\resources" />
       <recent name="F:\java\java\。，。\三期\test141spring\baseSpring\src\main\resources" />
       <recent name="F:\java\java\。，。\三期\test141spring\src\main\resources" />
     </key>
@@ -81,64 +96,13 @@
       <recent name="com.yc.project2.org.springframework.annotation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppConfig (1)">
-    <configuration name="App1_import" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.ioc.bean5_ioc_import.App1_import" />
-      <module name="baseSpring" />
+  <component name="RunManager">
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.cglib.TestMain" />
+      <module name="baseAop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yc.ioc.bean5_ioc_import.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App2_autowired" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.di.bean2_autowired.App2_autowired" />
-      <module name="baseSpring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yc.di.bean2_autowired.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppConfig (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.project2.AppConfig" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yc.project2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.project2.AppConfig" />
-      <module name="baseSpring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yc.project2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App_main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.project1.App_main" />
-      <module name="baseSpring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yc.project1.*" />
+          <option name="PATTERN" value="com.yc.cglib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppConfig (1)" />
-        <item itemvalue="Application.AppConfig" />
-        <item itemvalue="Application.App_main" />
-        <item itemvalue="Application.App1_import" />
-        <item itemvalue="Application.App2_autowired" />
+        <item itemvalue="Application.TestMain" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +176,9 @@
       <workItem from="1722582955333" duration="223000" />
       <workItem from="1722583580515" duration="52000" />
       <workItem from="1722584571320" duration="9000" />
+      <workItem from="1722664504180" duration="6512000" />
+      <workItem from="1722671029512" duration="80000" />
+      <workItem from="1722671118028" duration="4571000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -289,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722567497510</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="自定义简单的基于注解的spring">
+      <option name="closed" value="true" />
+      <created>1722664657005</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722664657005</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,17 +282,6 @@
     <MESSAGE value="ioc和di" />
     <MESSAGE value="自定义简单的基于注解的spring" />
     <option name="LAST_COMMIT_MESSAGE" value="自定义简单的基于注解的spring" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/baseSpring/src/main/java/com/yc/project2/org/springframework/context/YcAnnotationConfigApplicationContext.java</url>
-          <line>169</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
