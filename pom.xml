@@ -80,6 +80,19 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>8.0.33</version>
             </dependency>
+
+            <!--spring aop的支持包aspectJ,它提供了基于注解的aop的功能-->
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>1.9.4</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>5.3.24</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
