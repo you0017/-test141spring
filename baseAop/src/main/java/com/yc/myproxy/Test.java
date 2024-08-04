@@ -1,7 +1,6 @@
 package com.yc.myproxy;
 
 import com.yc.jdkproxy.CheckRightsInvocationHandler;
-import com.yc.jdkproxy.OrderBiz;
 
 import java.lang.reflect.Method;
 
@@ -15,7 +14,8 @@ public class Test {
             @Override
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                 System.out.println("3306");
-                return null;
+                Object o = method.invoke(orderBiz, args);
+                return o;
             }
         });
         o.saveOrder(1);

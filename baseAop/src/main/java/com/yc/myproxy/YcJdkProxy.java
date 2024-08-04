@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
+import java.lang.reflect.Parameter;
 import java.net.URLDecoder;
 import java.util.HashMap;
 import java.util.Map;
@@ -72,8 +73,10 @@ public class YcJdkProxy {
     private static String generateSrc(Class<?>[] interfaces) {
         StringBuffer sb = new StringBuffer();
         //TODO:应当是根据接口的报名来生成
-        sb.append("package com.yc.designpattern.DMA8_代理模式.dynamicproxy.自定义实现jdk动态代理;"+ln);
-        sb.append("import com.yc.designpattern.DMA8_代理模式.staticproxy.Person;"+ln);
+        /*sb.append("package com.yc.designpattern.DMA8_代理模式.dynamicproxy.自定义实现jdk动态代理;"+ln);
+        sb.append("import com.yc.designpattern.DMA8_代理模式.staticproxy.Person;"+ln);*/
+        sb.append("package com.yc.myproxy;"+ln);
+        sb.append("import com.yc.myproxy.OrderBiz;"+ln);
         sb.append("import java.lang.reflect.*;"+ln);
         sb.append("public class $Proxy0 implements " + interfaces[0].getName() + "{"+ln);
             sb.append("YcInvocationHandler h;"+ln);
@@ -85,15 +88,16 @@ public class YcJdkProxy {
                 StringBuffer paramNames = new StringBuffer();
                 StringBuffer paramValues = new StringBuffer();
                 StringBuffer paramClasses = new StringBuffer();
-
+                Parameter[] parameters = m.getParameters();
                 for (int i = 0; i < params.length; i++) {
                     Class<?> clazz = params[i];
                     String type = clazz.getName();
-                    String paramName = toLowerFirstCase("i"+clazz.getSimpleName());
+                    //String paramName = toLowerFirstCase("i"+params.getSimpleName());
+                    String paramName = toLowerFirstCase("i"+parameters[i].getName());
                     paramNames.append(type + " " + paramName);
                     paramValues.append(paramName);
                     paramClasses.append(clazz.getName() + ".class");
-                    if (i > 0 && i < params.length - 1) {
+                    if (i >= 0 && i < params.length - 1) {
                         paramNames.append(",");
                         paramValues.append(",");
                         paramClasses.append(",");
