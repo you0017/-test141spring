@@ -4,28 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="AOP">
-      <change afterPath="$PROJECT_DIR$/baseAop2_configuration/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop2_configuration/src/main/java/com/yc/project1/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop2_configuration/src/main/java/com/yc/project1/App_main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop2_configuration/src/main/java/com/yc/project1/aspects/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop2_configuration/src/main/java/com/yc/project1/aspects/OneAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop2_configuration/src/main/java/com/yc/project1/aspects/TwoAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop2_configuration/src/main/java/com/yc/project1/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop2_configuration/src/main/java/com/yc/project1/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop2_configuration/src/main/java/com/yc/project1/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop2_configuration/src/main/java/com/yc/project1/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop2_configuration/src/main/java/com/yc/project1/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop2_configuration/src/test/java/com/yc/project1/AppConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop2_configuration/src/test/java/com/yc/project1/TestSuitAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop2_configuration/src/test/java/com/yc/project1/dao/UserDaoImplTest.java" afterDir="false" />
+    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="自定义jdk动态代理">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/AppDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/bean/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/bean/OpRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/bean/OpType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/dao/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/dao/OpRecordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/dao/OpRecordDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/resources/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/test/java/com/yc/AppDataSourceConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/test/java/com/yc/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/test/java/com/yc/TestAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/test/java/com/yc/dao/AccountDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/ee.oAwAAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/ee.oAwAAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop/src/main/java/com/yc/myproxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop/src/main/java/com/yc/myproxy/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop/src/main/java/com/yc/myproxy/YcJdkProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop/src/main/java/com/yc/myproxy/YcJdkProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop2_configuration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop2_configuration/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop2_configuration/src/main/java/com/yc/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop2_configuration/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop2_configuration/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop2_configuration/src/test/java/com/yc/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +41,8 @@
         <option value="spring-beans.schema" />
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -78,7 +80,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/java/java/yc/Three_installments/test141spring/baseAop/src/main/java/com/yc/myproxy&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/java/java/SpringCloud+RabbitMQ+Docker+Redis+搜索+分布式/代码/day1-mybatisplus/mp-demo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -97,16 +99,21 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop3_tx\src\main\java\com\yc" />
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop3_tx\src\main\java\com\yc\bean" />
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop3_tx\src\main\resources" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop\src\main\java\com\yc\myproxy" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop2_configuration\src\main\java\com\yc" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop2_configuration\src\main\resources" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop\src\main\resources" />
-      <recent name="F:\java\java\。，。\三期\test141spring\baseSpring\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop3_tx\src\test\java\com\yc" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.yc.dao" />
+      <recent name="com.yc" />
       <recent name="com.yc.project1.dao" />
       <recent name="com.yc.project1" />
     </key>
@@ -114,70 +121,82 @@
       <recent name="com.yc.project2.org.springframework.annotation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.myproxy.Test" />
-      <module name="baseAop" />
+  <component name="RunManager" selected="JUnit.AccountDaoImplTest.findAll">
+    <configuration name="AccountDaoImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="baseAop3_tx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yc.myproxy.*" />
+          <option name="PATTERN" value="com.yc.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.yc.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.dao.AccountDaoImplTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.myproxy.Test" />
-      <module name="baseAop" />
+    <configuration name="AccountDaoImplTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="baseAop3_tx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yc.myproxy.*" />
+          <option name="PATTERN" value="com.yc.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.yc.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.dao.AccountDaoImplTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.myproxy.Test" />
-      <module name="baseAop" />
+    <configuration name="AccountDaoImplTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="baseAop3_tx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yc.myproxy.*" />
+          <option name="PATTERN" value="com.yc.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.yc.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.dao.AccountDaoImplTest" />
+      <option name="METHOD_NAME" value="findById" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yc.jdkproxy.TestMain" />
-      <module name="baseAop" />
+    <configuration name="AccountDaoImplTest.findCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="baseAop3_tx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yc.jdkproxy.*" />
+          <option name="PATTERN" value="com.yc.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.yc.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.dao.AccountDaoImplTest" />
+      <option name="METHOD_NAME" value="findCount" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppConfigTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="baseAop2_configuration" />
+    <configuration name="AccountDaoImplTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="baseAop3_tx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yc.project1.*" />
+          <option name="PATTERN" value="com.yc.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yc.project1" />
-      <option name="MAIN_CLASS_NAME" value="com.yc.project1.AppConfigTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.yc.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.dao.AccountDaoImplTest" />
+      <option name="METHOD_NAME" value="insert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.TestMain" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="JUnit.AppConfigTest.test" />
+        <item itemvalue="JUnit.AccountDaoImplTest.findAll" />
+        <item itemvalue="JUnit.AccountDaoImplTest.findCount" />
+        <item itemvalue="JUnit.AccountDaoImplTest.findById" />
+        <item itemvalue="JUnit.AccountDaoImplTest.insert" />
+        <item itemvalue="JUnit.AccountDaoImplTest.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +284,13 @@
       <workItem from="1722741790385" duration="43000" />
       <workItem from="1722742637012" duration="3208000" />
       <workItem from="1722750500554" duration="13155000" />
-      <workItem from="1722768114414" duration="2134000" />
+      <workItem from="1722768114414" duration="2466000" />
+      <workItem from="1722930271455" duration="167000" />
+      <workItem from="1722930469801" duration="217000" />
+      <workItem from="1723016663644" duration="6500000" />
+      <workItem from="1723027442616" duration="321000" />
+      <workItem from="1723036293053" duration="72000" />
+      <workItem from="1723036984259" duration="732000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -371,7 +396,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722770248955</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="自定义jdk动态代理">
+      <option name="closed" value="true" />
+      <created>1722770270447</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722770270447</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,17 +426,17 @@
     <MESSAGE value="ioc和di" />
     <MESSAGE value="自定义简单的基于注解的spring" />
     <MESSAGE value="jdk动态代理和cglib动态代理" />
-    <MESSAGE value="自定义jdk动态代理" />
     <MESSAGE value="AOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="AOP" />
+    <MESSAGE value="自定义jdk动态代理" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义jdk动态代理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/baseAop/src/main/java/com/yc/myproxy/OrderBizImpl.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/baseAop/src/main/java/com/yc/myproxy/YcJdkProxy.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
