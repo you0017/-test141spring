@@ -5,21 +5,24 @@ import com.yc.bean.OpRecord;
 import com.yc.bean.OpType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
 
 import javax.sql.DataSource;
 import java.util.List;
 
+@Repository
 public class OpRecordDaoImpl implements OpRecordDao{
+    @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    @Autowired
+    /*@Autowired
     public void init(DataSource dataSource){
         this.jdbcTemplate = new JdbcTemplate(dataSource);
-    }
+    }*/
 
     @Override
     public void insertOpRecord(OpRecord opRecord) {
-        String sql = "insert into oprecord(accountid,optype,opmoney,datetime,transferid) values(?,?,now(),?,?)";
+        String sql = "insert into oprecord(accountid,optype,optime,opmoney,transferid) values(?,?,now(),?,?)";
         jdbcTemplate.update(sql,opRecord.getAccountid(),opRecord.getOptype().getValue(),opRecord.getOpmoney(),opRecord.getTransferid());
     }
 

@@ -14,12 +14,13 @@ import java.util.List;
 
 @Repository//这是一个Dao持久层类，spring提供了自动化异常类型 类型转换功能  将SQLException异常转为RuntimeException异常
 public class AccountDaoImpl implements AccountDao{
+    @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    @Autowired
+    /*@Autowired
     public void init(DataSource dataSource){
         this.jdbcTemplate = new JdbcTemplate(dataSource);
-    }
+    }*/
 
     @Override
     public int insert(double money) {
@@ -36,7 +37,7 @@ public class AccountDaoImpl implements AccountDao{
 
     @Override
     public void update(int accountid, double money) {
-        String sql = "update accounts set balance = balance + ? where accountid = ?";
+        String sql = "update accounts set balance = balance - ? where accountid = ?";
         jdbcTemplate.update(sql,money,accountid);
     }
 
@@ -72,6 +73,9 @@ public class AccountDaoImpl implements AccountDao{
             account.setBalance(rs.getDouble(2));
             return account;
         },accountid);
+        if (a==null){
+            throw new RuntimeException("账户不存在");//TODO : Dao层的异常会被spring转换为spring的异常DataAccessException
+        }
         return a;
     }
 }
