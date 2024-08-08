@@ -1,6 +1,7 @@
 package com.yc;
 
 import com.alibaba.druid.pool.DruidDataSource;
+import com.yc.bean.OpType;
 import lombok.extern.log4j.Log4j;
 import org.junit.Assert;
 import org.junit.Test;
@@ -17,6 +18,19 @@ import static org.junit.Assert.*;
 public class AppDataSourceConfigTest {
     @Autowired
     private DruidDataSource dataSource;
+
+    @Test
+    public void test(){
+        /*log.info(OpType.WITHDRAW);
+        log.info(OpType.DEPOSITE);
+        log.info(OpType.TRANSFER);
+        log.info(OpType.valueOf("DEPOSITE"));
+        log.info(OpType.values());*/
+        log.info(OpType.WITHDRAW.getKey());
+        log.info(OpType.WITHDRAW.getValue());
+        log.info(OpType.WITHDRAW.getKey());
+        log.info(OpType.WITHDRAW.getValue());
+    }
 
     @Test
     public void druidDataSource() {

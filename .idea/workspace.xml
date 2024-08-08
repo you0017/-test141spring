@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="自定义jdk动态代理">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/AppDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/bean/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/bean/OpRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/bean/OpType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/dao/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/dao/OpRecordDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/dao/OpRecordDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/resources/db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/test/java/com/yc/AppDataSourceConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/test/java/com/yc/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/test/java/com/yc/TestAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/test/java/com/yc/dao/AccountDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/ee.oAwAAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/ee.oAwAAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="jdbcTemplate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop3_tx/src/test/java/com/yc/AppDataSourceConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop3_tx/src/test/java/com/yc/AppDataSourceConfigTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,23 +99,7 @@
       <recent name="com.yc.project2.org.springframework.annotation" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountDaoImplTest.findAll">
-    <configuration name="AccountDaoImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="baseAop3_tx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yc.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yc.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.yc.dao.AccountDaoImplTest" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AppDataSourceConfigTest.test">
     <configuration name="AccountDaoImplTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="baseAop3_tx" />
       <extension name="coverage">
@@ -202,13 +164,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppDataSourceConfigTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="baseAop3_tx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yc" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.AppDataSourceConfigTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppDataSourceConfigTest.test" />
         <item itemvalue="JUnit.AccountDaoImplTest.findAll" />
         <item itemvalue="JUnit.AccountDaoImplTest.findCount" />
         <item itemvalue="JUnit.AccountDaoImplTest.findById" />
         <item itemvalue="JUnit.AccountDaoImplTest.insert" />
-        <item itemvalue="JUnit.AccountDaoImplTest.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +268,10 @@
       <workItem from="1723016663644" duration="6500000" />
       <workItem from="1723027442616" duration="321000" />
       <workItem from="1723036293053" duration="72000" />
-      <workItem from="1723036984259" duration="732000" />
+      <workItem from="1723036984259" duration="941000" />
+      <workItem from="1723041016008" duration="984000" />
+      <workItem from="1723085000839" duration="660000" />
+      <workItem from="1723090762275" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -404,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722770270447</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="jdbcTemplate">
+      <option name="closed" value="true" />
+      <created>1723039692577</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723039692577</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +417,8 @@
     <MESSAGE value="jdk动态代理和cglib动态代理" />
     <MESSAGE value="AOP" />
     <MESSAGE value="自定义jdk动态代理" />
-    <option name="LAST_COMMIT_MESSAGE" value="自定义jdk动态代理" />
+    <MESSAGE value="jdbcTemplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbcTemplate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
