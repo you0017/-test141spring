@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <h1>欢迎您进入小鹏银行</h1>
+    <form action="" method="post">
+        本人账号:<input type="text" name="accountid" v-model="accountid"/><br/>
+        操作金额:<input type="text" name="money" v-model="money"/><br/>
+        对方账号:<input type="text" name="toaccountid" v-model="toaccountid"/><br/>
+        <input type="button" value="开户" class="btn" id="submit1" @click="openAccount()">
+        <input type="button" value="存款" class="btn" id="submit2" @click="deposit()">
+        <input type="button" value="取款" class="btn" id="submit3" @click="withdraw()">
+        <input type="button" value="转账" class="btn" id="submit4" @click="transfer()">
+        <input type="button" value="查询" class="btn" id="submit5" @click="query()">
+
+        <div id="result"></div>
+    </form>
+</div>
+</body>
+
+<script src="js/axios.js"></script>
+<script src="js/vue.js"></script>
+<script src="js/jquery-1.9.1.js"></script>
+
+<script type="text/javascript">
+    let vm = new Vue({
+        el:'#app',
+        data:{
+            accountid:'',
+            money:0.0,
+            toaccountid:'',
+        },
+        methods:{
+            deposit:function (){
+                var params = new URLSearchParams();
+                params.append("accountid",this.accountid);
+                params.append("money",this.money);
+                params.append("op","deposit");
+                axios.post('account.action',params).then(result =>{
+                    if (result.data.code == 0){
+                        alert(result.data.error);
+                    }else {
+                        $("#result").html(result.data.object.accountid + "号账户存款" + this.money + "元成功，余额:" + result.data.object.balance);
+                    }
+                });
+            },
+            withdraw:function (){
+                var params = new URLSearchParams();
+                params.append("accountid",this.accountid);
+                params.append("money",this.money);
+                params.append("op","withdraw");
+                axios.post('account.action',params).then(result =>{
+                    if (result.data.code == 0){
+                        alert(result.data.error);
+                    }else {
+                        $("#result").html(result.data.object.accountid + "号账户取款" + this.money + "元成功，余额:" + result.data.object.balance);
+                    }
+                });
+            },
+            transfer:function (){
+                var params = new URLSearchParams();
+                params.append("accountid",this.accountid);
+                params.append("money",this.money);
+                params.append("toaccountid",this.toaccountid);
+                params.append("op","transfer");
+                axios.post('account.action',params).then(result =>{
+                    if (result.data.code == 0){
+                        alert(result.data.error);
+                    }else {
+                        $("#result").html(result.data.object.accountid + "号账户转账" + this.money + "元至" + this.toaccountid + "成功,余额:" + result.data.object.balance);
+                    }
+                });
+            },
+            query:function (){
+                var params = new URLSearchParams();
+                params.append("accountid",this.accountid);
+                params.append("op","query");
+                axios.post('account.action',params).then(result =>{
+                    if (result.data.code == 0){
+                        alert(result.data.error);
+                    }else {
+                        $("#result").html(result.data.object.accountid + "号账户，余额:" +  result.data.object.balance);
+                    }
+                });
+            },
+            openAccount:function (){
+                var params = new URLSearchParams();
+                params.append("money",this.money);
+                params.append("op","openAccount");
+                axios.post('account.action',params).then(result =>{
+                    if (result.data.code == 0){
+                        alert(result.data.error);
+                    }else {
+                        $("#result").html(result.data.object.accountid + "号账户开户成功，余额:" + result.data.object.balance);
+                    }
+                });
+            }
+        }
+    })
+</script>
+</html>

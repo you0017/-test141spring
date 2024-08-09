@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="baseAop4_tx_bank_web:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="事务">
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/AppDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/bean/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/bean/OpRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/bean/OpType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/dao/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/dao/OpRecordDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/dao/OpRecordDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/service/BankBiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/service/BankBizImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/resources/db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="事务Tx">
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/AppDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/OpRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/OpType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/OpRecordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/OpRecordDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/BankBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/BankBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/AccountServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/model/DataModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/model/JsonModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/webapp/js/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/webapp/js/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseSpring_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring_web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +48,10 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,6 +61,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/baseSpring/src/main/java/com/yc/bean3/AppConfig.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -71,6 +89,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -78,7 +97,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/java/java/yc/Three_installments/test141spring/baseSpring_web/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/java/java/yc/Three_installments/test141spring/baseAop4_tx_bank_web/src/main/webapp&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -97,16 +116,19 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp" />
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java\com\yc\web\servlets" />
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java" />
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\resources" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseSpring_web\src\main\resources" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseSpring_web\src\main\java" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop3_tx\src\main\java\com\yc" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop3_tx\src\main\java\com\yc\bean" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop3_tx\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java\com\yc\web\servlets" />
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp" />
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp\WEB-INF" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop3_tx\src\test\java\com\yc" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -117,10 +139,11 @@
       <recent name="com.yc.project1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yc.web.servlets" />
       <recent name="com.yc.project2.org.springframework.annotation" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BankBizImplTest.withdraw">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.88">
     <configuration name="AccountDaoImplTest.findCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="baseAop3_tx" />
       <extension name="coverage">
@@ -201,6 +224,101 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 9.0.88" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.88" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="baseAop4_tx_bank_web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/baseAop4_tx_bank_web_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="dc564700-c46c-4b6b-bff4-631d71ed11bf" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64788" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="baseAop4_tx_bank_web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AccountDaoImplTest.findCount" />
+      <item itemvalue="JUnit.BankBizImplTest.deposite" />
+      <item itemvalue="JUnit.BankBizImplTest.findAccount" />
+      <item itemvalue="JUnit.BankBizImplTest.openAccount" />
+      <item itemvalue="JUnit.BankBizImplTest.withdraw" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.88" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BankBizImplTest.withdraw" />
@@ -303,7 +421,8 @@
       <workItem from="1723171083732" duration="5000" />
       <workItem from="1723182675618" duration="117000" />
       <workItem from="1723182799911" duration="17000" />
-      <workItem from="1723182825879" duration="480000" />
+      <workItem from="1723182825879" duration="9031000" />
+      <workItem from="1723192732352" duration="1090000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -441,7 +560,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723108596047</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="事务Tx">
+      <option name="closed" value="true" />
+      <created>1723183356312</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723183356312</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +594,8 @@
     <MESSAGE value="自定义jdk动态代理" />
     <MESSAGE value="jdbcTemplate" />
     <MESSAGE value="事务" />
-    <option name="LAST_COMMIT_MESSAGE" value="事务" />
+    <MESSAGE value="事务Tx" />
+    <option name="LAST_COMMIT_MESSAGE" value="事务Tx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -488,5 +616,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test141spring$Tomcat_9_0_88.ic" NAME="Tomcat 9.0.88 Coverage Results" MODIFIED="1723187489699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
