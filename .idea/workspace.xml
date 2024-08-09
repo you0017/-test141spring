@@ -4,14 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="jdbcTemplate">
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/service/BankBiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/service/BankBizImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop3_tx/src/test/java/com/yc/service/BankBizImplTest.java" afterDir="false" />
+    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="事务">
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/AppDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/bean/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/bean/OpRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/bean/OpType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/dao/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/dao/OpRecordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/dao/OpRecordDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/service/BankBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/java/com/yc/service/BankBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/resources/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseSpring_web/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/AppDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/AppDataSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/dao/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/dao/AccountDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/dao/OpRecordDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop3_tx/src/main/java/com/yc/dao/OpRecordDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseSpring_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/baseSpring_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +36,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -54,39 +69,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/java/java/ssm/code/spring",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/java/java/yc/Three_installments/test141spring/baseSpring_web/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseSpring_web\src\main\resources" />
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseSpring_web\src\main\java" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop3_tx\src\main\java\com\yc" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop3_tx\src\main\java\com\yc\bean" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop3_tx\src\main\resources" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop\src\main\java\com\yc\myproxy" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop2_configuration\src\main\java\com\yc" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -278,7 +293,17 @@
       <workItem from="1723041016008" duration="984000" />
       <workItem from="1723085000839" duration="660000" />
       <workItem from="1723090762275" duration="28000" />
-      <workItem from="1723096383598" duration="11492000" />
+      <workItem from="1723096383598" duration="13168000" />
+      <workItem from="1723117283233" duration="9000" />
+      <workItem from="1723166767966" duration="31000" />
+      <workItem from="1723166888384" duration="85000" />
+      <workItem from="1723166985536" duration="176000" />
+      <workItem from="1723167239831" duration="224000" />
+      <workItem from="1723167474462" duration="1000" />
+      <workItem from="1723171083732" duration="5000" />
+      <workItem from="1723182675618" duration="117000" />
+      <workItem from="1723182799911" duration="17000" />
+      <workItem from="1723182825879" duration="480000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -408,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723096389047</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="事务">
+      <option name="closed" value="true" />
+      <created>1723108596047</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723108596047</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +466,8 @@
     <MESSAGE value="AOP" />
     <MESSAGE value="自定义jdk动态代理" />
     <MESSAGE value="jdbcTemplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbcTemplate" />
+    <MESSAGE value="事务" />
+    <option name="LAST_COMMIT_MESSAGE" value="事务" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
