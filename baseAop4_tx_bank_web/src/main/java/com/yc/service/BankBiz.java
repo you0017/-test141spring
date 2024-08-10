@@ -19,4 +19,6 @@ public interface BankBiz {
 
     // 根据id查询Account账号信息
     public Account findAccount( int accountid);
+
+    Account email(int accountId);
 }

@@ -16,6 +16,21 @@ import java.lang.reflect.InvocationTargetException;
 
 @WebServlet("/account.action")
 public class AccountServlet extends BaseServlet {
+    protected void email(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        if (req.getParameter("accountid").equals("")){
+            return;
+        }
+        int accountId = Integer.parseInt(req.getParameter("accountid"));
+
+        ServletContext application = req.getServletContext();
+        WebApplicationContext ac = WebApplicationContextUtils.getWebApplicationContext(application);
+        BankBiz bankBiz = (BankBiz) ac.getBean("bankBizImpl");
+        Account account = bankBiz.email(accountId);
+        JsonModel jm = new JsonModel();
+        jm.setCode(1);
+        jm.setObj(account);
+        super.writeJson(jm,resp);
+    }
 
     protected void deposit(HttpServletRequest req, HttpServletResponse resp) throws IOException, InvocationTargetException, InstantiationException, IllegalAccessException {
         int accountid = Integer.parseInt(req.getParameter("accountid"));

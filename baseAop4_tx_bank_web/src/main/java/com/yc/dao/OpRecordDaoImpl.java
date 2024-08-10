@@ -5,11 +5,13 @@ import com.yc.bean.OpRecord;
 import com.yc.bean.OpType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jmx.export.annotation.ManagedResource;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 @Repository
+@ManagedResource(objectName = "com.dao:name=OpRecordDaoImpl")
 public class OpRecordDaoImpl implements OpRecordDao{
     @Autowired
     private JdbcTemplate jdbcTemplate;

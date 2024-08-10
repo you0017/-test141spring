@@ -1,0 +1,15 @@
+需求:
+1.更改表，在account表中加一个列，邮箱地址，每个用户有一个邮箱地址，->sql语句中改表结构
+    在html页面上，用户一输入账号，就立马查询出此账号对应的邮箱
+2.每次存，取，转账后，需要相应的邮件发到用户邮箱中。  java  mail
+3.邮件内容规范  ->引入模板引擎 -> 使用解决方案    velocity/freemarker
+4.考虑银行存取款是高频操作  -> 考虑解耦合
+                        -> 考虑使用jms,可选的方案: 消息中间件 -> 考虑使用MQ|kafka|rabbitmq|activemq|RocketMQ|redis|zookeeper|etcd|consul
+5.每天晚上12点，生成对账表(存入多少钱，取出多少钱)  发邮件给一个固定的邮箱  -> 定时任务  ->解决方案  scheduler/cron
+6.将本银行的客户数，总金额以API形式暴露给其他网站使用 -> 考虑restful api  -> 解决方案:spring restful
+                                            ->考虑web  service   ->解决方案:spring web service
+7.分析项目中的性能瓶颈，对这些位置家啊如缓存 -> 考虑redis  ->  解决方案:redis
+                                                   ->  解决方案 spring cache+内存(本地缓存
+                                                   ->  解决方案 spring cache+redis(分布式缓存
+8.一个java系统性能很大程度由jvm垃圾回收器决定(jvm的STW stop the world),监控系统的运行情况  -> j2ee的JMX   -> spring + jmx
+                                                                                -> jdk自带的jconsole可以联接kvm监控

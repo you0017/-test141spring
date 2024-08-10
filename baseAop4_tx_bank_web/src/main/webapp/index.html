@@ -8,9 +8,10 @@
 <div id="app">
     <h1>欢迎您进入小鹏银行</h1>
     <form action="" method="post">
-        本人账号:<input type="text" name="accountid" v-model="accountid"/><br/>
+        本人账号:<input type="text" name="accountid" v-model="accountid" @input="email(1)"/>{{e}}<br/>
+        通知邮箱:<input type="text" name="email" v-model="e"/><br>
         操作金额:<input type="text" name="money" v-model="money"/><br/>
-        对方账号:<input type="text" name="toaccountid" v-model="toaccountid"/><br/>
+        对方账号:<input type="text" name="toaccountid" v-model="toaccountid" @input="email(2)"/>{{toe}}<br/>
         <input type="button" value="开户" class="btn" id="submit1" @click="openAccount()">
         <input type="button" value="存款" class="btn" id="submit2" @click="deposit()">
         <input type="button" value="取款" class="btn" id="submit3" @click="withdraw()">
@@ -33,8 +34,33 @@
             accountid:'',
             money:0.0,
             toaccountid:'',
+            e:'',
+            toe:'',
         },
         methods:{
+            email(index){
+                var params = new URLSearchParams();
+                if (index==1){
+                    params.append('accountid',this.accountid);
+                }else{
+                    params.append('accountid',this.toaccountid);
+                }
+                axios.post('account.action?op=email',params).then(result=>{
+                    if(result.data.code==1){
+                        if (index==1){
+                            this.e = result.data.obj.email;
+                        }else{
+                            this.toe = result.data.obj.email;
+                        }
+                    }else {
+                        if (index==1){
+                            this.e = '';
+                        }else{
+                            this.toe = '';
+                        }
+                    }
+                })
+            },
             deposit:function (){
                 var params = new URLSearchParams();
                 params.append("accountid",this.accountid);
@@ -44,7 +70,7 @@
                     if (result.data.code == 0){
                         alert(result.data.error);
                     }else {
-                        $("#result").html(result.data.object.accountid + "号账户存款" + this.money + "元成功，余额:" + result.data.object.balance);
+                        alert(result.data.obj.accountid + "号账户存款" + this.money + "元成功，余额:" + result.data.obj.balance);
                     }
                 });
             },
@@ -57,7 +83,7 @@
                     if (result.data.code == 0){
                         alert(result.data.error);
                     }else {
-                        $("#result").html(result.data.object.accountid + "号账户取款" + this.money + "元成功，余额:" + result.data.object.balance);
+                        alert(result.data.obj.accountid + "号账户取款" + this.money + "元成功，余额:" + result.data.obj.balance);
                     }
                 });
             },
@@ -71,7 +97,7 @@
                     if (result.data.code == 0){
                         alert(result.data.error);
                     }else {
-                        $("#result").html(result.data.object.accountid + "号账户转账" + this.money + "元至" + this.toaccountid + "成功,余额:" + result.data.object.balance);
+                        alert(result.data.obj.accountid + "号账户转账" + this.money + "元至" + this.toaccountid + "成功,余额:" + result.data.obj.balance);
                     }
                 });
             },
@@ -83,7 +109,7 @@
                     if (result.data.code == 0){
                         alert(result.data.error);
                     }else {
-                        $("#result").html(result.data.object.accountid + "号账户，余额:" +  result.data.object.balance);
+                        alert(result.data.obj.accountid + "号账户，余额:" +  result.data.obj.balance);
                     }
                 });
             },
@@ -95,7 +121,7 @@
                     if (result.data.code == 0){
                         alert(result.data.error);
                     }else {
-                        $("#result").html(result.data.object.accountid + "号账户开户成功，余额:" + result.data.object.balance);
+                        alert(result.data.obj.accountid + "号账户开户成功，余额:" + result.data.obj.balance);
                     }
                 });
             }

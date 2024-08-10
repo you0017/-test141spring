@@ -9,34 +9,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="事务Tx">
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/AppDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/OpRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/OpType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/OpRecordDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/OpRecordDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/BankBiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/BankBizImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/AccountServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/BaseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/model/DataModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/model/JsonModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/webapp/js/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/webapp/js/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="spring-web">
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/拓展.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/ee.oAwAAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/ee.oAwAAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/AppDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/AppDataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/OpRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/OpRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/OpRecordDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/OpRecordDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/BankBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/BankBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/BankBizImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/BankBizImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/AccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/AccountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +84,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/java/java/yc/Three_installments/test141spring/baseAop4_tx_bank_web/src/main/webapp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/java/java/api/spring_jmx&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -105,7 +92,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -126,6 +113,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp\js" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java\com\yc\web\servlets" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp\WEB-INF" />
@@ -422,7 +410,16 @@
       <workItem from="1723182675618" duration="117000" />
       <workItem from="1723182799911" duration="17000" />
       <workItem from="1723182825879" duration="9031000" />
-      <workItem from="1723192732352" duration="1090000" />
+      <workItem from="1723192732352" duration="1442000" />
+      <workItem from="1723201618528" duration="21000" />
+      <workItem from="1723203268102" duration="157000" />
+      <workItem from="1723250677289" duration="3148000" />
+      <workItem from="1723254391554" duration="3079000" />
+      <workItem from="1723258191600" duration="564000" />
+      <workItem from="1723259413580" duration="732000" />
+      <workItem from="1723260712430" duration="1556000" />
+      <workItem from="1723262293719" duration="43000" />
+      <workItem from="1723269845652" duration="1543000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -568,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723183356312</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="spring-web">
+      <option name="closed" value="true" />
+      <created>1723194142987</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723194142987</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +600,8 @@
     <MESSAGE value="jdbcTemplate" />
     <MESSAGE value="事务" />
     <MESSAGE value="事务Tx" />
-    <option name="LAST_COMMIT_MESSAGE" value="事务Tx" />
+    <MESSAGE value="spring-web" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-web" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -610,6 +616,26 @@
           <line>40</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/AccountDaoImpl.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/AccountDaoImpl.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/AccountDaoImpl.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/AccountServlet.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -618,6 +644,6 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/test141spring$Tomcat_9_0_88.ic" NAME="Tomcat 9.0.88 Coverage Results" MODIFIED="1723187489699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/test141spring$Tomcat_9_0_88.ic" NAME="Tomcat 9.0.88 Coverage Results" MODIFIED="1723270696958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

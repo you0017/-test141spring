@@ -4,6 +4,9 @@ package com.yc.service;
 import com.yc.bean.OpRecord;
 import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.jmx.export.annotation.ManagedResource;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
@@ -22,6 +25,7 @@ import com.yc.dao.OpRecordDao;
         readOnly = false,
         rollbackFor = {RuntimeException.class}
 )
+@ManagedResource(objectName = "com.yc:name=BankBiz")
 public class BankBizImpl implements BankBiz {
     @Autowired
     private AccountDao accountDao;
@@ -49,10 +53,11 @@ public class BankBizImpl implements BankBiz {
     }
 
     @Override
+    @CachePut(value = "bank_web",key = "#accountid")
     public Account deposit(int accountid, double money) {
         Account a = null;
         try{
-            a = this.accountDao.findById(accountid);
+            a = this.findAccount(accountid);
         }catch (Exception e){
             log.error("账户不存在:"+accountid);
             throw new RuntimeException("账户不存在:"+accountid+",无法完成存款操作");
@@ -70,11 +75,12 @@ public class BankBizImpl implements BankBiz {
     }
 
     @Override
+    @CachePut(value = "bank_web",key = "#accountid")
     //@Transactional
     public Account withdraw(int accountid, double money) {
         Account a = null;
         try{
-            a = this.accountDao.findById(accountid);
+            a = this.findAccount(accountid);
         }catch (Exception e){
             log.error("账户不存在:"+accountid);
             throw new RuntimeException("账户不存在:"+accountid+",无法完成存款操作");
@@ -95,14 +101,24 @@ public class BankBizImpl implements BankBiz {
     }
 
     @Override
+    @CachePut(value = "bank_web",key = "#accountid")
     public Account transfer(int accountid, double money, int toAccountId) {
-        this.deposit(accountid,money);
-        Account a = this.withdraw(toAccountId, money);
+        this.deposit(toAccountId,money);
+        Account a = this.withdraw(accountid, money);
         return a;
     }
 
     @Override
+    @Transactional(readOnly =true)
+    @Cacheable(value = "bank_web",key = "#accountid")
     public Account findAccount(int accountid) {
         return this.accountDao.findById(accountid);
+    }
+
+    @Override
+    @Cacheable(value = "bank_web",key = "#accountid")
+    public Account email(int accountid) {
+        Account account = this.accountDao.findById(accountid);
+        return account;
     }
 }
