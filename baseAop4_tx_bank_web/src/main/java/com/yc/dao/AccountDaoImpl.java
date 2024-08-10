@@ -63,6 +63,8 @@ public class AccountDaoImpl implements AccountDao {
     @Override
     @ManagedAttribute
     public int findCount() {
+        log.debug("3306");
+        System.out.println("3306");
         return jdbcTemplate.queryForObject("select count(*) from accounts",Integer.class);
     }
 

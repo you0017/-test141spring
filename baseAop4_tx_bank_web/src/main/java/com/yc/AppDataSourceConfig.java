@@ -16,7 +16,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @ComponentScan
-@PropertySource("classpath:db.properties")
+@PropertySource(value = {"classpath:db.properties", "classpath:email.properties"})
 @EnableAspectJAutoProxy//启用aspectj
 @EnableTransactionManagement(
         proxyTargetClass = false,

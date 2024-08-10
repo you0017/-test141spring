@@ -9,21 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="spring-web">
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/拓展.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/ee.oAwAAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96912dab-1994-4d6f-b376-5cab24026353/storage_v2/_src_/schema/ee.oAwAAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="spring_cache_jmx_jms">
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/EmailConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/aspect/BankBizEmailAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/MailBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/email.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/test/java/com/yc/service/MailBizTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/AppDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/AppDataSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/OpRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/OpRecord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/AccountDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/OpRecordDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/OpRecordDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/BankBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/BankBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/BankBizImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/BankBizImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/AccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/AccountServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +31,9 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="HTML File" />
         <option value="spring-beans.schema" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -84,7 +80,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/java/java/api/spring_jmx&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/java/java/yc/Three_installments/test141spring/baseAop4_tx_bank_web/src/main/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -103,10 +99,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\resources" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java\com\yc\web\servlets" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\resources" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseSpring_web\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -127,27 +123,13 @@
       <recent name="com.yc.project1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yc" />
+      <recent name="com.yc.service" />
       <recent name="com.yc.web.servlets" />
       <recent name="com.yc.project2.org.springframework.annotation" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.88">
-    <configuration name="AccountDaoImplTest.findCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="baseAop3_tx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yc.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yc.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.yc.dao.AccountDaoImplTest" />
-      <option name="METHOD_NAME" value="findCount" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BankBizImplTest.deposite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="baseAop3_tx" />
       <extension name="coverage">
@@ -207,6 +189,22 @@
       <option name="PACKAGE_NAME" value="com.yc.service" />
       <option name="MAIN_CLASS_NAME" value="com.yc.service.BankBizImplTest" />
       <option name="METHOD_NAME" value="withdraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailBizTest.sendMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="baseAop4_tx_bank_web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yc.service" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.service.MailBizTest" />
+      <option name="METHOD_NAME" value="sendMail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -300,7 +298,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AccountDaoImplTest.findCount" />
+      <item itemvalue="JUnit.MailBizTest.sendMail" />
       <item itemvalue="JUnit.BankBizImplTest.deposite" />
       <item itemvalue="JUnit.BankBizImplTest.findAccount" />
       <item itemvalue="JUnit.BankBizImplTest.openAccount" />
@@ -309,11 +307,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MailBizTest.sendMail" />
         <item itemvalue="JUnit.BankBizImplTest.withdraw" />
         <item itemvalue="JUnit.BankBizImplTest.deposite" />
         <item itemvalue="JUnit.BankBizImplTest.openAccount" />
         <item itemvalue="JUnit.BankBizImplTest.findAccount" />
-        <item itemvalue="JUnit.AccountDaoImplTest.findCount" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +417,8 @@
       <workItem from="1723259413580" duration="732000" />
       <workItem from="1723260712430" duration="1556000" />
       <workItem from="1723262293719" duration="43000" />
-      <workItem from="1723269845652" duration="1543000" />
+      <workItem from="1723269845652" duration="10327000" />
+      <workItem from="1723280219921" duration="1916000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -573,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723194142987</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="spring_cache_jmx_jms">
+      <option name="closed" value="true" />
+      <created>1723271692324</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723271692324</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +608,8 @@
     <MESSAGE value="事务" />
     <MESSAGE value="事务Tx" />
     <MESSAGE value="spring-web" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-web" />
+    <MESSAGE value="spring_cache_jmx_jms" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring_cache_jmx_jms" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -621,23 +629,13 @@
           <line>35</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/AccountDaoImpl.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/dao/AccountDaoImpl.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/web/servlets/AccountServlet.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/aspect/BankBizEmailAspect.java" line="64">
+        <watch expression="1" language="JAVA" />
+      </inline-watch>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
