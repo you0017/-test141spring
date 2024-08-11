@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/baseAop3_tx/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/baseSpring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/baseSpring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/baseSpring_web/src/main/java" charset="UTF-8" />

@@ -2,22 +2,30 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="baseAop4_tx_bank_web:war exploded" />
+      <artifact name="baseAop4_tx_bank_web:war" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="spring_cache_jmx_jms">
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/vms/deposit.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/vms/transfer.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/vms/withdraw.vm" afterDir="false" />
+    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="spring_transactional_aop_cache_jmx_jms_mail_velocity">
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/JmsActiveMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/VelocityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/MessageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/JmsMessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/jms.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/test/java/com/yc/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/aspect/BankBizEmailAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/aspect/BankBizEmailAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/email.properties" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/email.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/拓展.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/拓展.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/MailBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/MailBiz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,12 +87,12 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/java/java/yc/Three_installments/test141spring/baseAop4_tx_bank_web/src/main/resources",
+    "last_opened_file_path": "F:/java/java/yc/Three_installments/test141spring/baseAop4_tx_bank_web/src/main/java/com/yc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -98,21 +106,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java\com\yc" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\resources" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java\com\yc\web\servlets" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseSpring_web\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java\com\yc\aspect" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp\js" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java\com\yc\web\servlets" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp\WEB-INF" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop3_tx\src\test\java\com\yc" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.yc.service" />
@@ -209,14 +217,14 @@
     <configuration name="Tomcat 9.0.88" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.88" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="baseAop4_tx_bank_web:war exploded">
+        <artifact name="baseAop4_tx_bank_web:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/baseAop4_tx_bank_web_war_exploded" />
+            <option name="CONTEXT_PATH" value="/baseAop4_tx_bank_web_war" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="dc564700-c46c-4b6b-bff4-631d71ed11bf" />
+        <option name="BASE_DIRECTORY_NAME" value="7d3df282-cbbe-4e1b-bbea-c2e1b805e963" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -224,7 +232,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="64788" />
+        <option name="DEBUG_PORT" value="51164" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -289,7 +297,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="baseAop4_tx_bank_web:war exploded" />
+          <artifact name="baseAop4_tx_bank_web:war" />
         </option>
       </method>
     </configuration>
@@ -420,7 +428,7 @@
       <workItem from="1723341900824" duration="6000" />
       <workItem from="1723343807182" duration="2483000" />
       <workItem from="1723349103810" duration="482000" />
-      <workItem from="1723355259632" duration="3337000" />
+      <workItem from="1723355259632" duration="11644000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -590,7 +598,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723285555743</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="spring_transactional_aop_cache_jmx_jms_mail_velocity">
+      <option name="closed" value="true" />
+      <created>1723358651824</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723358651824</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +635,8 @@
     <MESSAGE value="事务Tx" />
     <MESSAGE value="spring-web" />
     <MESSAGE value="spring_cache_jmx_jms" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring_cache_jmx_jms" />
+    <MESSAGE value="spring_transactional_aop_cache_jmx_jms_mail_velocity" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring_transactional_aop_cache_jmx_jms_mail_velocity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -647,7 +664,10 @@
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/aspect/BankBizEmailAspect.java" line="71">
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="writer.toString()" language="JAVA" />
+      </configuration>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/aspect/BankBizEmailAspect.java" line="95">
         <watch expression="1" language="JAVA" />
       </inline-watch>
     </watches-manager>

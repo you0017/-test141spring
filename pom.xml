@@ -16,6 +16,7 @@
         <module>baseAop3_tx</module>
         <module>baseSpring_web</module>
         <module>baseAop4_tx_bank_web</module>
+        <module>baseAop5_bank_jms_consumer</module>
     </modules>
 
     <properties>
@@ -135,7 +136,25 @@
                 <artifactId>velocity</artifactId>
                 <version>1.7</version>
             </dependency>
-
+            <!--jms-->
+            <!-- Spring Core 和 Spring JMS 相关依赖 -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-jms</artifactId>
+                <version>5.3.24</version> <!-- 版本号根据你的实际需求和Spring版本进行调整 -->
+            </dependency>
+            <!-- ActiveMQ 相关依赖 -->
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>activemq-all</artifactId>
+                <version>5.18.5</version> <!-- 版本号根据你的实际需求和ActiveMQ版本进行调整 -->
+            </dependency>
+            <!--apache核心日志库-->
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-core</artifactId>
+                <version>2.23.1</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

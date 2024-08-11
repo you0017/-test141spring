@@ -1,6 +1,5 @@
 package com.yc.aspect;
 
-import com.yc.VelocityConfig;
 import com.yc.bean.Account;
 import com.yc.bean.MessageBean;
 import com.yc.service.BankBiz;
@@ -8,9 +7,6 @@ import com.yc.service.JmsMessageProducer;
 import com.yc.service.MailBiz;
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
-import org.apache.velocity.app.VelocityEngine;
-import org.apache.velocity.runtime.RuntimeConstants;
-import org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
@@ -22,7 +18,6 @@ import org.springframework.stereotype.Component;
 
 import java.io.StringWriter;
 import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @Aspect
