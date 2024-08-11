@@ -2,7 +2,13 @@
 1.更改表，在account表中加一个列，邮箱地址，每个用户有一个邮箱地址，->sql语句中改表结构
     在html页面上，用户一输入账号，就立马查询出此账号对应的邮箱
 2.每次存，取，转账后，需要相应的邮件发到用户邮箱中。  java  mail
+
+
 3.邮件内容规范  ->引入模板引擎 -> 使用解决方案    velocity/freemarker
+        (1)vm->html邮件  ->  邮箱查看邮件时，做html解析   指定邮件mine类型.   contentType="text/html;charset=utf-8"
+        (2)从vm文件中以流读取html内容  ->  velocity引擎解析占位符，替换值，然后再用java mail以邮件方式(流)方式  -> 乱码
+
+
 4.考虑银行存取款是高频操作  -> 考虑解耦合
                         -> 考虑使用jms,可选的方案: 消息中间件 -> 考虑使用MQ|kafka|rabbitmq|activemq|RocketMQ|redis|zookeeper|etcd|consul
 5.每天晚上12点，生成对账表(存入多少钱，取出多少钱)  发邮件给一个固定的邮箱  -> 定时任务  ->解决方案  scheduler/cron
