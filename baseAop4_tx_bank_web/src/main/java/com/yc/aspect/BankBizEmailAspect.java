@@ -42,14 +42,14 @@ public class BankBizEmailAspect {
     public void transfer() {
     }
 
-    @Autowired
-    private MailBiz mailBiz;
+    //@Autowired
+    //private MailBiz mailBiz;
 
     @Autowired
     private BankBiz bankBiz;
 
 
-    @Autowired
+    /*@Autowired
     private VelocityContext context;
     @Autowired
     @Qualifier("withdrawTemplate")
@@ -66,7 +66,7 @@ public class BankBizEmailAspect {
     @Autowired
     @Qualifier("partDf")
     private DateFormat partDf;
-
+*/
     @Autowired
     private JmsMessageProducer jmsMessageProducer;
 
@@ -97,17 +97,17 @@ public class BankBizEmailAspect {
         }*/
         new Thread(() -> {
             //mailBiz.sendMail(email, "银行通知", info);
-            jmsMessageProducer.sendMessage(new MessageBean(account, money, toAccountId,email));
+            jmsMessageProducer.sendMessage(new MessageBean(account, money, toAccountId,email, methodName));
         }).start();
     }
 
-    private String deposit(Account account, double money) {
-        /*Date date = new Date();
+    /*private String deposit(Account account, double money) {
+        *//*Date date = new Date();
         DateFormat df = new SimpleDateFormat("yyyy年MM月dd日 hh:mm");
         String dateStr = df.format(date);
         String s = "尊敬的%s先生:\n\t您的账户%s于%s存入了%s元,当前余额为%s元,\n\t\t\t\t中国银行";
         s = String.format(s, account.getAccountid(), account.getAccountid(), dateStr, money, account.getBalance());
-        return s;*/
+        return s;*//*
 
 
         Date d = new Date();
@@ -145,12 +145,12 @@ public class BankBizEmailAspect {
 
 
     private String withdraw(Account account, double money) {
-        /*Date date = new Date();
+        *//*Date date = new Date();
         DateFormat df = new SimpleDateFormat("yyyy年MM月dd日 hh:mm");
         String dateStr = df.format(date);
         String s = "尊敬的%s先生:\n\t您的账户%s于%s取出了%s元,当前余额为%s元,\n\t\t\t\t中国银行";
         s = String.format(s, account.getAccountid(), account.getAccountid(), dateStr, money, account.getBalance());
-        return s;*/
+        return s;*//*
 
         Date d = new Date();
         //DateFormat fullDf = new SimpleDateFormat("yyyy年MM月dd日 hh:mm:ss");
@@ -186,12 +186,12 @@ public class BankBizEmailAspect {
     }
 
     private String transfer(Account account, double money, int toAccountId) {
-        /*Date date = new Date();
+        *//*Date date = new Date();
         DateFormat df = new SimpleDateFormat("yyyy年MM月dd日 hh:mm");
         String dateStr = df.format(date);
         String s = "尊敬的%s先生:\n\t您的账户%s于%s向账户%s转入了%s元,当前余额为%s元,\n\t\t\t\t中国银行";
         s = String.format(s, account.getAccountid(), account.getAccountid(), dateStr, toAccountId, money, account.getBalance());
-        return s;*/
+        return s;*//*
 
         Date d = new Date();
         //DateFormat fullDf = new SimpleDateFormat("yyyy年MM月dd日 hh:mm:ss");
@@ -225,6 +225,6 @@ public class BankBizEmailAspect {
             e.printStackTrace();
         }
         return "";
-    }
+    }*/
 
 }

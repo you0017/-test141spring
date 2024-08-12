@@ -1,10 +1,7 @@
-package com.yc.aspect;
+package com.yc.service;
 
 import com.yc.bean.Account;
 import com.yc.bean.MessageBean;
-import com.yc.service.BankBiz;
-import com.yc.service.JmsMessageProducer;
-import com.yc.service.MailBiz;
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
 import org.aspectj.lang.JoinPoint;
@@ -18,31 +15,16 @@ import org.springframework.stereotype.Component;
 
 import java.io.StringWriter;
 import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@Aspect
+
 @Component
-@Order(1)
-public class BankBizEmailAspect {
+public class VelocityTemplateBizImpl {
 
-    @Pointcut("execution(* com.yc.service.BankBizImpl.deposit(..))")
-    public void deposit() {
-    }
-
-    @Pointcut("execution(* com.yc.service.BankBizImpl.withdraw(..))")
-    public void withdraw() {
-    }
-
-    @Pointcut("execution(* com.yc.service.BankBizImpl.transfer(..))")
-    public void transfer() {
-    }
 
     @Autowired
     private MailBiz mailBiz;
-
-    @Autowired
-    private BankBiz bankBiz;
-
 
     @Autowired
     private VelocityContext context;
@@ -62,38 +44,19 @@ public class BankBizEmailAspect {
     @Qualifier("partDf")
     private DateFormat partDf;
 
-    @Autowired
-    private JmsMessageProducer jmsMessageProducer;
 
-
-
-    @After(value = "deposit() || withdraw() || transfer()")
-    public void sendEmail(JoinPoint joinPoint) {
-        int accountid = (int) joinPoint.getArgs()[0];
-        double money = (double) joinPoint.getArgs()[1];
-        int toAccountId;
-        if (joinPoint.getSignature().getName().equals("transfer")){
-            toAccountId = (int) joinPoint.getArgs()[2];
-        } else {
-            toAccountId = 0;
-        }
-        Account account = bankBiz.findAccount(accountid);
-        String email = account.getEmail();
+    public String genEmailContent(String opType,Account account,double money,int toaccountid) {
         String info;
-        String methodName = joinPoint.getSignature().getName();
-        /*if (methodName.equals("deposit")){
+        if (opType.equals("deposit")){
             info = deposit(account, money);
-        }else if (methodName.equals("withdraw")){
+        }else if (opType.equals("withdraw")){
             info = withdraw(account, money);
-        }else if (methodName.equals("transfer")){
-            info = transfer(account, money, toAccountId);
+        }else if (opType.equals("transfer")){
+            info = transfer(account, money, toaccountid);
         } else {
             info = "";
-        }*/
-        new Thread(() -> {
-            //mailBiz.sendMail(email, "银行通知", info);
-            jmsMessageProducer.sendMessage(new MessageBean(account, money, toAccountId,email));
-        }).start();
+        }
+        return info;
     }
 
     private String deposit(Account account, double money) {

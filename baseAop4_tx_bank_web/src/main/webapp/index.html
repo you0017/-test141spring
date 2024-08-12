@@ -18,7 +18,7 @@
         <input type="button" value="转账" class="btn" id="submit4" @click="transfer()">
         <input type="button" value="查询" class="btn" id="submit5" @click="query()">
 
-        <div id="result"></div>
+        <div id="result">{{re}}</div>
     </form>
 </div>
 </body>
@@ -36,6 +36,7 @@
             toaccountid:'',
             e:'',
             toe:'',
+            re:'',
         },
         methods:{
             email(index){
@@ -70,7 +71,7 @@
                     if (result.data.code == 0){
                         alert(result.data.error);
                     }else {
-                        alert(result.data.obj.accountid + "号账户存款" + this.money + "元成功，余额:" + result.data.obj.balance);
+                        this.re = result.data.obj.accountid + "号账户存款" + this.money + "元成功，余额:" + result.data.obj.balance;
                     }
                 });
             },
@@ -83,7 +84,7 @@
                     if (result.data.code == 0){
                         alert(result.data.error);
                     }else {
-                        alert(result.data.obj.accountid + "号账户取款" + this.money + "元成功，余额:" + result.data.obj.balance);
+                        this.re=result.data.obj.accountid + "号账户取款" + this.money + "元成功，余额:" + result.data.obj.balance;
                     }
                 });
             },
@@ -97,7 +98,7 @@
                     if (result.data.code == 0){
                         alert(result.data.error);
                     }else {
-                        alert(result.data.obj.accountid + "号账户转账" + this.money + "元至" + this.toaccountid + "成功,余额:" + result.data.obj.balance);
+                        this.re = result.data.obj.accountid + "号账户转账" + this.money + "元至" + this.toaccountid + "成功,余额:" + result.data.obj.balance;
                     }
                 });
             },
@@ -109,7 +110,7 @@
                     if (result.data.code == 0){
                         alert(result.data.error);
                     }else {
-                        alert(result.data.obj.accountid + "号账户，余额:" +  result.data.obj.balance);
+                        this.re = result.data.obj.accountid + "号账户，余额:" +  result.data.obj.balance;
                     }
                 });
             },
@@ -121,7 +122,7 @@
                     if (result.data.code == 0){
                         alert(result.data.error);
                     }else {
-                        alert(result.data.obj.accountid + "号账户开户成功，余额:" + result.data.obj.balance);
+                        this.re = result.data.obj.accountid + "号账户开户成功，余额:" + result.data.obj.balance;
                     }
                 });
             }

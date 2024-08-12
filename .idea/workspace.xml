@@ -10,23 +10,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="spring_transactional_aop_cache_jmx_jms_mail_velocity">
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/JmsActiveMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/VelocityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/MessageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/JmsMessageProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/jms.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/test/java/com/yc/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/service/VelocityTemplateBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/email.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/jms.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/vms/deposit.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/vms/transfer.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/vms/withdraw.vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/aspect/BankBizEmailAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/aspect/BankBizEmailAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/MailBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/service/MailBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/MessageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/MessageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/email.properties" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/email.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/AppDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/AppDataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/EmailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/EmailConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/JmsActiveMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/JmsActiveMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/aspect/BankBizEmailAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/bean/MessageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/bean/MessageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/bean/OpRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/bean/OpType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/dao/AccountDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/dao/OpRecordDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/dao/OpRecordDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/service/BankBiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/service/BankBizImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/service/JmsMessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/service/JmsMessageConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/web/servlets/AccountServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/web/servlets/BaseServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/web/servlets/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/web/servlets/model/DataModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/web/servlets/model/JsonModel.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,40 +93,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/java/java/yc/Three_installments/test141spring/baseAop4_tx_bank_web/src/main/java/com/yc",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/java/java/yc/Three_installments/test141spring/baseAop5_bank_jms_consumer/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop5_bank_jms_consumer\src\main\resources" />
+      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop5_bank_jms_consumer\src\main\java\com\yc" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java\com\yc" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\resources" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java\com\yc\web\servlets" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -137,6 +153,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.88">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.App" />
+      <module name="baseAop5_bank_jms_consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yc.myproxy.Test" />
       <module name="baseAop" />
@@ -146,6 +175,35 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.myproxy.Test" />
+      <module name="baseAop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.myproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankBizImplTest.deposite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="baseAop3_tx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yc.service" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.service.BankBizImplTest" />
+      <option name="METHOD_NAME" value="deposite" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,6 +251,38 @@
       <option name="PACKAGE_NAME" value="com.yc.service" />
       <option name="MAIN_CLASS_NAME" value="com.yc.service.BankBizImplTest" />
       <option name="METHOD_NAME" value="withdraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankBizImplTest.withdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="baseAop3_tx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yc.service" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.service.BankBizImplTest" />
+      <option name="METHOD_NAME" value="withdraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailBizTest.sendMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="baseAop4_tx_bank_web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yc.service" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.service.MailBizTest" />
+      <option name="METHOD_NAME" value="sendMail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -301,21 +391,108 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Tomcat 9.0.88" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.88" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="baseAop4_tx_bank_web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/baseAop4_tx_bank_web_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="7d3df282-cbbe-4e1b-bbea-c2e1b805e963" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51164" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="baseAop4_tx_bank_web:war" />
+        </option>
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.App" />
       <item itemvalue="Application.Test" />
       <item itemvalue="JUnit.MailBizTest.sendMail" />
       <item itemvalue="JUnit.BankBizImplTest.deposite" />
-      <item itemvalue="JUnit.BankBizImplTest.openAccount" />
       <item itemvalue="JUnit.BankBizImplTest.withdraw" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.88" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.MailBizTest.sendMail" />
         <item itemvalue="JUnit.BankBizImplTest.withdraw" />
         <item itemvalue="JUnit.BankBizImplTest.deposite" />
-        <item itemvalue="JUnit.BankBizImplTest.openAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +605,8 @@
       <workItem from="1723341900824" duration="6000" />
       <workItem from="1723343807182" duration="2483000" />
       <workItem from="1723349103810" duration="482000" />
-      <workItem from="1723355259632" duration="11644000" />
+      <workItem from="1723355259632" duration="13518000" />
+      <workItem from="1723439263120" duration="1710000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -606,7 +784,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723358651824</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="spring_transactional_aop_cache_jmx_jms_mail_velocity">
+      <option name="closed" value="true" />
+      <created>1723367212117</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723367212117</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

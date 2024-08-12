@@ -14,4 +14,5 @@ public class MessageBean {
     private double money;
     private Integer toAccountid;
     private String email;
+    private String opType;
 }
