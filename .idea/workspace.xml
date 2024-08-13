@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="baseAop4_tx_bank_web:war" />
+      <artifact name="springmvc141:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,39 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="spring_transactional_aop_cache_jmx_jms_mail_velocity">
-      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/service/VelocityTemplateBizImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/email.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/jms.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/vms/deposit.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/vms/transfer.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/vms/withdraw.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/java/com/yc/AppMainConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/java/com/yc/pojo/JsonModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/java/com/yc/pojo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/java/com/yc/web/controllers/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/java/com/yc/web/controllers/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/aspect/BankBizEmailAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/aspect/BankBizEmailAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/MessageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/java/com/yc/bean/MessageBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/email.properties" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/email.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/AppDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/AppDataSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/EmailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/EmailConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/JmsActiveMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/JmsActiveMQConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/aspect/BankBizEmailAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/bean/MessageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/bean/MessageBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/bean/OpRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/bean/OpType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/dao/AccountDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/dao/AccountDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/dao/OpRecordDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/dao/OpRecordDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/service/BankBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/service/BankBizImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/service/JmsMessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/service/JmsMessageConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/web/servlets/AccountServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/web/servlets/BaseServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/web/servlets/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/web/servlets/model/DataModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/java/com/yc/web/servlets/model/JsonModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/email.properties" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/email.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +35,10 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="spring-beans.schema" />
         <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -103,12 +85,12 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/java/java/yc/Three_installments/test141spring/baseAop5_bank_jms_consumer/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/java/java/yc/Three_installments/test141spring&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
@@ -146,6 +128,7 @@
       <recent name="com.yc.project1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yc.pojo" />
       <recent name="com.yc" />
       <recent name="com.yc.service" />
       <recent name="com.yc.web.servlets" />
@@ -307,14 +290,14 @@
     <configuration name="Tomcat 9.0.88" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.88" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="baseAop4_tx_bank_web:war">
+        <artifact name="springmvc141:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/baseAop4_tx_bank_web_war" />
+            <option name="CONTEXT_PATH" value="/springmvc141_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="7d3df282-cbbe-4e1b-bbea-c2e1b805e963" />
+        <option name="BASE_DIRECTORY_NAME" value="e019e32e-86f3-4f0d-b873-a02cda364812" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -322,7 +305,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51164" />
+        <option name="DEBUG_PORT" value="52989" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -387,7 +370,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="baseAop4_tx_bank_web:war" />
+          <artifact name="springmvc141:war exploded" />
         </option>
       </method>
     </configuration>
@@ -481,6 +464,7 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.BankBizImplTest.openAccount" />
       <item itemvalue="JUnit.MailBizTest.sendMail" />
       <item itemvalue="JUnit.BankBizImplTest.deposite" />
       <item itemvalue="JUnit.BankBizImplTest.withdraw" />
@@ -606,7 +590,10 @@
       <workItem from="1723343807182" duration="2483000" />
       <workItem from="1723349103810" duration="482000" />
       <workItem from="1723355259632" duration="13518000" />
-      <workItem from="1723439263120" duration="1710000" />
+      <workItem from="1723439263120" duration="5791000" />
+      <workItem from="1723450496000" duration="250000" />
+      <workItem from="1723450755185" duration="4442000" />
+      <workItem from="1723458637068" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -792,7 +779,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723367212117</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="spring_transactional_aop_cache_jmx_jms_mail_velocity">
+      <option name="closed" value="true" />
+      <created>1723441252219</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723441252219</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

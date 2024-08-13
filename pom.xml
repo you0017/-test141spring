@@ -17,6 +17,7 @@
         <module>baseSpring_web</module>
         <module>baseAop4_tx_bank_web</module>
         <module>baseAop5_bank_jms_consumer</module>
+        <module>springmvc141</module>
     </modules>
 
     <properties>
@@ -154,6 +155,14 @@
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-core</artifactId>
                 <version>2.23.1</version>
+            </dependency>
+
+
+            <!--springmvc-->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-webmvc</artifactId>
+                <version>5.3.24</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
