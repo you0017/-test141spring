@@ -2,28 +2,35 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="springmvc141:war exploded" />
+      <artifact name="springmvc141_2:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="spring_transactional_aop_cache_jmx_jms_mail_velocity">
-      <change afterPath="$PROJECT_DIR$/springmvc141/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/java/com/yc/AppMainConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/java/com/yc/pojo/JsonModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/java/com/yc/pojo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/java/com/yc/web/controllers/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/java/com/yc/web/controllers/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc141/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="springmvc">
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/src/main/java/com/yc/AppMainConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/src/main/java/com/yc/SpringMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/src/main/java/com/yc/controllers/HideController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/src/main/java/com/yc/controllers/Person2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/src/main/java/com/yc/controllers/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/src/main/java/com/yc/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/src/main/resources/statics/images/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/src/main/resources/statics/statics_a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/src/main/webapp/WEB-INF/views/hide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/src/main/webapp/images/ert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/email.properties" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/email.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/email.properties" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/email.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc141/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc141/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc141/src/main/java/com/yc/web/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc141/src/main/java/com/yc/web/controllers/PersonController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +44,8 @@
         <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="JUnit4 Test Class" />
-        <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -85,7 +92,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;H:/java/java/yc/Three_installments/test141spring&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/java/视频/二期/shop/shop_完整项目&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -104,21 +111,21 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\java\yc\Three_installments\test141spring\springmvc141_2\src\main\resources\statics\images" />
+      <recent name="F:\java\java\yc\Three_installments\test141spring\springmvc141_2\src\main\webapp\WEB-INF\views" />
+      <recent name="F:\java\java\yc\Three_installments\test141spring\springmvc141_2\src\main\webapp\images" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop5_bank_jms_consumer\src\main\resources" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop5_bank_jms_consumer\src\main\java\com\yc" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java\com\yc" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\resources" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java\java\yc\Three_installments\test141spring\springmvc141_2\src\main\java\com\yc\controllers" />
+      <recent name="F:\java\java\yc\Three_installments\test141spring\springmvc141_2\src\main\resources" />
+      <recent name="F:\java\java\yc\Three_installments\test141spring\springmvc141_2\src\main\resources\statics" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java\com\yc\aspect" />
       <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp\js" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\java\com\yc\web\servlets" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp" />
-      <recent name="F:\java\java\yc\Three_installments\test141spring\baseAop4_tx_bank_web\src\main\webapp\WEB-INF" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.yc.service" />
@@ -290,14 +297,14 @@
     <configuration name="Tomcat 9.0.88" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.88" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="springmvc141:war exploded">
+        <artifact name="springmvc141_2:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/springmvc141_war_exploded" />
+            <option name="CONTEXT_PATH" value="/springmvc141_2_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="e019e32e-86f3-4f0d-b873-a02cda364812" />
+        <option name="BASE_DIRECTORY_NAME" value="13849a4c-36d8-4151-933b-af20de84fef7" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -305,7 +312,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52989" />
+        <option name="DEBUG_PORT" value="51571" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -370,7 +377,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="springmvc141:war exploded" />
+          <artifact name="springmvc141_2:war exploded" />
         </option>
       </method>
     </configuration>
@@ -594,6 +601,15 @@
       <workItem from="1723450496000" duration="250000" />
       <workItem from="1723450755185" duration="4442000" />
       <workItem from="1723458637068" duration="8000" />
+      <workItem from="1723517846214" duration="313000" />
+      <workItem from="1723520002327" duration="1706000" />
+      <workItem from="1723529194583" duration="65000" />
+      <workItem from="1723529267738" duration="792000" />
+      <workItem from="1723530067722" duration="10074000" />
+      <workItem from="1723547588864" duration="8000" />
+      <workItem from="1723547617065" duration="99000" />
+      <workItem from="1723547723165" duration="34000" />
+      <workItem from="1723547766435" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -787,7 +803,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723441252219</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="spring_transactional_aop_cache_jmx_jms_mail_velocity">
+      <option name="closed" value="true" />
+      <created>1723517864831</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723517864831</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
