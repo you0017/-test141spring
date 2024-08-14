@@ -1,5 +1,6 @@
 package com.yc.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,5 +11,8 @@ import lombok.NoArgsConstructor;
 public class Person {
     private Integer id;
     private String name;
+
+    //只写属性，返回的json不会包含这个
+    @JsonProperty(access = JsonProperty.Access.READ_ONLY)
     private Integer age;
 }

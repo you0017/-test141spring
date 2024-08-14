@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+</head>
+<body>
+<h1>用户注册(同步</h1>
+<hr>
+<form method="post" action="upload" enctype="multipart/form-data">
+用户名:<input type="text" name="username"/>
+    <input type="file" name="file"/>
+<input type="submit" value="上传"/>
+</form>
+
+
+<hr>
+<h1>用户注册(异步)</h1>
+<div id="app">
+    <form>
+        用户名:<input type="text" v-model="username"/>
+        <input type="file" @input="f"/>
+        <input type="button" value="上传" @click="s"/>
+    </form>
+</div>
+</body>
+
+<script src="js/axios.js"></script>
+<script src="js/vue.js"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data:{
+            file:'',
+            username:''
+        },
+        methods: {
+            f(event){
+                this.file = event.target.files[0]
+            },
+            s(){
+                var formData = new FormData()
+                formData.append('file',this.file)
+                formData.append('username',this.username)
+                axios.post('upload',formData,{
+                    headers: {
+                        'Content-Type': 'multipart/form-data'
+                    }
+                }).then(function (response) {
+                    console.log(response)
+                })
+            }
+        }
+    })
+</script>
+</html>
