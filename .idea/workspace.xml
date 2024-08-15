@@ -10,10 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43a8f3c9-54b0-4e2a-b855-cb38c2e3f9a6" name="Changes" comment="springmvc的拦截器和文件上传">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc141_2/src/main/java/com/yc/ServletContainersInitConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/email.properties" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop4_tx_bank_web/src/main/resources/email.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/email.properties" beforeDir="false" afterPath="$PROJECT_DIR$/baseAop5_bank_jms_consumer/src/main/resources/email.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc141_2/src/main/java/com/yc/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc141_2/src/main/java/com/yc/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -600,6 +599,7 @@
       <workItem from="1723603232022" duration="221000" />
       <workItem from="1723615085167" duration="13356000" />
       <workItem from="1723687770362" duration="14000" />
+      <workItem from="1723687797021" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -817,7 +817,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723628106004</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="springmvc的拦截器和文件上传">
+      <option name="closed" value="true" />
+      <created>1723687825723</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723687825723</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
