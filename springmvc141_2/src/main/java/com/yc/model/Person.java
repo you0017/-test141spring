@@ -13,6 +13,6 @@ public class Person {
     private String name;
 
     //只写属性，返回的json不会包含这个
-    @JsonProperty(access = JsonProperty.Access.READ_ONLY)
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private Integer age;
 }
