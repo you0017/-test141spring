@@ -31,7 +31,7 @@ public class SpringMvcConfiguration {
             //配置静态访问资源
             //相当于<mvc:resource mapping="/statics/**" location="classpath:/statics/"/>
 
-            //相当于把resource下的statics目录复制到webappxia
+            //相当于把resource下的statics目录复制到webapp下
             //相当于webapp下的静态页面了
             @Override
             public void addResourceHandlers(ResourceHandlerRegistry registry) {
